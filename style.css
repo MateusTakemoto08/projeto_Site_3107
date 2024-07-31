@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.dados {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+/* Formatar a imagem com cantos arredondados  */
+.perfil {
+    border-radius: 50%;
+}
+/* Formatar Titulo com ID */
+#cv{
+    font-optical-sizing: auto;
+    color: rgb(255, 0, 0);
+    font-size: 35px;
+}
+
+/* Formatando o logo Paris */
+.logoParis{
+    width: 150px;
+    height:  150px;
+    margin-right: 50px;
+    /* Colocando borda na imagem */
+    border: 8px solid red;
+    border-radius: 20px;
+}
+
+.titulo{
+    background-color:chocolate ;
+    font-family:"Ubuntu", sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+/* Colocando uma imagem ao lado da outra */
+
+.box {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    background-color: black;
+    /* O alinhamento da <div> */
+    display: inline;
+    /* Mudando a margem direita */
+    margin-right: 100px;
+    /* Colocando borda na <div> */
+    border: 10px solid red;
+
+}
+img {
+    width: 200px;
+}
+

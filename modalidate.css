@@ -1,0 +1,16 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    background-color: black;
+    /* O alinhamento da <div> */
+    display: inline;
+    /* Mudando a margem direita */
+    margin-right: 100px;
+    /* Colocando borda na <div> */
+    border: 10px solid red;
+
+}
+img {
+    width: 100px;
+}
